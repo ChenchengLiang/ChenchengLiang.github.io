@@ -221,10 +221,10 @@ exclude:
   - "package*.json"
 
 jekyll-archives:
-  enabled: [categories, tags]
+  enabled: [categories]  # Remove 'tags' from this line
   layouts:
     category: category
-    tag: tag
+    # Remove the tag layout line
   permalinks:
-    tag: /tags/:name/
+    # Remove the tag permalink line
     category: /categories/:name/

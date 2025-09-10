@@ -1,0 +1,24 @@
+@inproceedings{DBLP:conf/atva/AbdullaACLR24,
+  author       = {Parosh Aziz Abdulla and
+                  Mohamed Faouzi Atig and
+                  Julie Cailler and
+                  Chencheng Liang and
+                  Philipp R{\"{u}}mmer},
+  editor       = {S. Akshay and
+                  Aina Niemetz and
+                  Sriram Sankaranarayanan},
+  title        = {Guiding Word Equation Solving Using Graph Neural Networks},
+  booktitle    = {Automated Technology for Verification and Analysis - 22nd International
+                  Symposium, {ATVA} 2024, Kyoto, Japan, October 21-25, 2024, Proceedings,
+                  Part {I}},
+  series       = {Lecture Notes in Computer Science},
+  volume       = {15054},
+  pages        = {279--301},
+  publisher    = {Springer},
+  year         = {2024},
+  url          = {https://doi.org/10.1007/978-3-031-78709-6\_14},
+  doi          = {10.1007/978-3-031-78709-6\_14},
+  timestamp    = {Thu, 06 Feb 2025 12:03:24 +0100},
+  biburl       = {https://dblp.org/rec/conf/atva/AbdullaACLR24.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}

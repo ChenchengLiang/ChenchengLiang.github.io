@@ -1,0 +1,19 @@
+@article{DBLP:journals/tvt/YuanLKCH19,
+  author       = {Yali Yuan and
+                  Chencheng Liang and
+                  Megumi Kaneko and
+                  Xu Chen and
+                  Dieter Hogrefe},
+  title        = {Topology Control for Energy-Efficient Localization in Mobile Underwater
+                  Sensor Networks Using Stackelberg Game},
+  journal      = {{IEEE} Trans. Veh. Technol.},
+  volume       = {68},
+  number       = {2},
+  pages        = {1487--1500},
+  year         = {2019},
+  url          = {https://doi.org/10.1109/TVT.2018.2886904},
+  doi          = {10.1109/TVT.2018.2886904},
+  timestamp    = {Sun, 19 Jan 2025 14:50:19 +0100},
+  biburl       = {https://dblp.org/rec/journals/tvt/YuanLKCH19.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}

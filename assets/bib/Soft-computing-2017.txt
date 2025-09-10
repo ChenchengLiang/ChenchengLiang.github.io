@@ -1,0 +1,18 @@
+@article{DBLP:journals/soco/YangLJ17,
+  author       = {Yong Yang and
+                  Chencheng Liang and
+                  Shiwei Ji},
+  title        = {Comments on "Fuzzy multicriteria decision making method based on the
+                  improved accuracy function for interval-valued intuitionistic fuzzy
+                  sets" by Ridvan Sahin},
+  journal      = {Soft Comput.},
+  volume       = {21},
+  number       = {11},
+  pages        = {3033--3035},
+  year         = {2017},
+  url          = {https://doi.org/10.1007/s00500-015-1988-7},
+  doi          = {10.1007/S00500-015-1988-7},
+  timestamp    = {Sun, 21 May 2017 18:55:06 +0200},
+  biburl       = {https://dblp.org/rec/journals/soco/YangLJ17.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}

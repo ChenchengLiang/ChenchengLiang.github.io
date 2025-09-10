@@ -1,0 +1,20 @@
+@inproceedings{DBLP:conf/paar/LiangRB22,
+  author       = {Chencheng Liang and
+                  Philipp R{\"{u}}mmer and
+                  Marc Brockschmidt},
+  editor       = {Boris Konev and
+                  Claudia Schon and
+                  Alexander Steen},
+  title        = {Exploring Representation of Horn clauses using GNNs},
+  booktitle    = {Proceedings of the Workshop on Practical Aspects of Automated Reasoning
+                  Co-located with the 11th International Joint Conference on Automated
+                  Reasoning (FLoC/IJCAR 2022), Haifa, Israel, August, 11 - 12, 2022},
+  series       = {{CEUR} Workshop Proceedings},
+  volume       = {3201},
+  publisher    = {CEUR-WS.org},
+  year         = {2022},
+  url          = {https://ceur-ws.org/Vol-3201/paper7.pdf},
+  timestamp    = {Fri, 10 Mar 2023 16:23:34 +0100},
+  biburl       = {https://dblp.org/rec/conf/paar/LiangRB22.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}

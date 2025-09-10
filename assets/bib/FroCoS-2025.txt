@@ -1,0 +1,19 @@
+@article{DBLP:journals/corr/abs-2506-23784,
+  author       = {Parosh Aziz Abdulla and
+                  Mohamed Faouzi Atig and
+                  Julie Cailler and
+                  Chencheng Liang and
+                  Philipp R{"{u}}mmer},
+  title        = {When GNNs Met a Word Equations Solver: Learning to Rank Equations
+                  (Extended Technical Report)},
+  journal      = {CoRR},
+  volume       = {abs/2506.23784},
+  year         = {2025},
+  url          = {https://doi.org/10.48550/arXiv.2506.23784},
+  doi          = {10.48550/ARXIV.2506.23784},
+  eprinttype   = {arXiv},
+  eprint       = {2506.23784},
+  timestamp    = {Sat, 12 Jul 2025 23:35:14 +0200},
+  biburl       = {https://dblp.org/rec/journals/corr/abs-2506-23784.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}

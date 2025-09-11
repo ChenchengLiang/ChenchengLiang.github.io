@@ -4,7 +4,7 @@
   <id>http://0.0.0.0:4000/</id>
   <title>Chencheng Liang</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll th eme for technical writing.</subtitle>
-  <updated>2025-09-11T20:30:31+02:00</updated>
+  <updated>2025-09-11T22:05:13+02:00</updated>
   <author>
     <name>Chencheng Liang</name>
     <uri>http://0.0.0.0:4000/</uri>
@@ -20,8 +20,8 @@
 
   
   <entry>
-    <title>PhD Defense Completed</title>
-    <link href="http://0.0.0.0:4000/posts/PhD-defense/" rel="alternate" type="text/html" title="PhD Defense Completed" />
+    <title>PhD Defense Completed 🎓</title>
+    <link href="http://0.0.0.0:4000/posts/PhD-defense/" rel="alternate" type="text/html" title="PhD Defense Completed 🎓" />
     <published>2025-05-06T18:00:00+02:00</published>
   
     <updated>2025-05-06T18:00:00+02:00</updated>
@@ -38,7 +38,31 @@
     
   
 
-  <summary>I am happy to share that I have successfully defended my PhD thesis, titled “Learning to Guide Automated Reasoning: A GNN-Based Framework.”  Defense Details     Date: 6 May 2025   Time: 13:15   Location: Room 10132 Häggsalen, Ångström        Opponent: Prof. Stephan Schulz, DHBW Stuttgart, Germany   Supervisor: Prof. Philipp Rümmer, Uppsala University, Sweden   Chair: Prof. Bengt Jonsson, Uppsal...</summary>
+  <summary>I am happy to share that I have successfully defended my PhD thesis, titled **“Learning to Guide Automated Reasoning: A GNN-Based Framework.”**  ## Defense Details  - **Date**: 6 May 2025   - **Time**: 13:15   - **Location**: Room 10132 Häggsalen, Ångström    ---  - **Opponent**: Prof. Stephan Schulz, DHBW Stuttgart, Germany  - **Supervisor**: Prof. Philipp Rümmer, Uppsala University, Sweden   ...</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>Our Hackathon Project in Impact Hack 2025: CozySteps</title>
+    <link href="http://0.0.0.0:4000/posts/impact-hack-2025/" rel="alternate" type="text/html" title="Our Hackathon Project in Impact Hack 2025: CozySteps" />
+    <published>2025-03-15T09:00:00+01:00</published>
+  
+    <updated>2025-03-15T09:00:00+01:00</updated>
+  
+    <id>http://0.0.0.0:4000/posts/impact-hack-2025/</id>
+    <content type="text/html" src="http://0.0.0.0:4000/posts/impact-hack-2025/" />
+    <author>
+      <name>Chencheng Liang</name>
+    </author>
+
+  
+    
+    <category term="Projects" />
+    
+  
+
+  <summary>CozySteps — Our LLM-powered activity recommender for families with autistic children 🧩     Built during Impact Hack 2025 by AI Sweden     🧠 Background &amp;amp; Motivation  We joined Impact Hack 2025, a hackathon organized by AI Sweden that encourages teams to use AI-driven innovation to tackle real societal challenges.  Our chosen challenge: help families with autistic children discover suitable a...</summary>
 
   </entry>
 

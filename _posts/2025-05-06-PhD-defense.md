@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "PhD Defense Completed"
+title: "PhD Defense Completed 🎓"
 date: 2025-05-06 18:00:00 +0200
 categories: [News]
 toc: true
@@ -23,10 +23,10 @@ I am happy to share that I have successfully defended my PhD thesis, titled **�
 - **Supervisor**: Prof. Philipp Rümmer, Uppsala University, Sweden  
 - **Chair**: Prof. Bengt Jonsson, Uppsala University, Sweden   
 - **Committee**:  
-  - Konstantin Korovin, University of Manchester, U.K.  
-  - Mihaela Sighireanu, ENS Paris-Saclay, France  
-  - Christian Rohner, Uppsala University, Sweden  
-  - Tobias Wrigstad, Uppsala University, Sweden
+  - Prof. Mihaela Sighireanu, ENS Paris-Saclay, France 
+  - Reader Konstantin Korovin, University of Manchester, U.K.  
+  - Prof. Christian Rohner, Uppsala University, Sweden  
+  - Prof. Tobias Wrigstad, Uppsala University, Sweden
 
 ---
 

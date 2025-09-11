@@ -4,7 +4,7 @@
   <id>http://0.0.0.0:4000/</id>
   <title>Chencheng Liang</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll th eme for technical writing.</subtitle>
-  <updated>2025-09-10T22:23:00+02:00</updated>
+  <updated>2025-09-11T20:30:31+02:00</updated>
   <author>
     <name>Chencheng Liang</name>
     <uri>http://0.0.0.0:4000/</uri>
@@ -17,6 +17,30 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>PhD Defense Completed</title>
+    <link href="http://0.0.0.0:4000/posts/PhD-defense/" rel="alternate" type="text/html" title="PhD Defense Completed" />
+    <published>2025-05-06T18:00:00+02:00</published>
+  
+    <updated>2025-05-06T18:00:00+02:00</updated>
+  
+    <id>http://0.0.0.0:4000/posts/PhD-defense/</id>
+    <content type="text/html" src="http://0.0.0.0:4000/posts/PhD-defense/" />
+    <author>
+      <name>Chencheng Liang</name>
+    </author>
+
+  
+    
+    <category term="News" />
+    
+  
+
+  <summary>I am happy to share that I have successfully defended my PhD thesis, titled “Learning to Guide Automated Reasoning: A GNN-Based Framework.”  Defense Details     Date: 6 May 2025   Time: 13:15   Location: Room 10132 Häggsalen, Ångström        Opponent: Prof. Stephan Schulz, DHBW Stuttgart, Germany   Supervisor: Prof. Philipp Rümmer, Uppsala University, Sweden   Chair: Prof. Bengt Jonsson, Uppsal...</summary>
+
+  </entry>
 
 </feed>
 

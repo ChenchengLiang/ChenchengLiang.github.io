@@ -195,6 +195,7 @@ This work is also published on [RedNote](https://www.xiaohongshu.com/user/profil
   width: 100%;
   height: 100%;
   overflow: hidden;
+  border-radius: 32px;
 }
 
 .gallery-cover img {

@@ -12,10 +12,19 @@
   {
     "title": "Our Hackathon Project in Impact Hack 2025: CozySteps",
     "url": "/posts/impact-hack-2025/",
-    "categories": "Projects",
+    "categories": "Events",
     "tags": "",
     "date": "2025-03-15 09:00:00 +0100",
     "content": "CozySteps — Our LLM-powered activity recommender for families with autistic children 🧩     Built during Impact Hack 2025 by AI Sweden     🧠 Background &amp; Motivation  We joined Impact Hack 2025, a hackathon organized by AI Sweden that encourages teams to use AI-driven innovation to tackle real societal challenges.  Our chosen challenge: help families with autistic children discover suitable activities for their kids.  Many autistic children are highly sensitive to sensory input and have narrow interests. Parents often struggle to find appropriate activities, which can make family interactions stressful. With CozySteps, we aimed to reduce decision fatigue for parents and make daily life more enjoyable for everyone.    🤖 What We Built  We created a mobile app prototype called CozySteps, with an activity recommendation engine powered by Large Language Models (LLMs). It analyzes each child’s profile and activity metadata to provide personalized suggestions.  Key features:          🧒 Child Profile Management Parents can record the child’s age, interests, and sensory sensitivities.           🎯 LLM-powered Activity Recommendations A curated activity database combined with an LLM inference layer suggests 3 tailored activities at a time.           💬 Parent Feedback Loop After completing an activity, parents can give simple feedback. The LLM interprets feedback to refine future recommendations.           📅 Schedule &amp; Reminders Parents can add activities to a calendar and receive reminders to build predictable daily routines.      The UI is calm and icon-based to minimize sensory overload and support neurodiverse users.    📸 A Glimpse of the App      🛠 Tech Stack     Frontend: React + styled-components   AI logic: LLM-based reasoning + rule-based activity metadata   Data: local JSON storage   Prototyping: Figma   We chose a lightweight front-end + local data + LLM API inference architecture to stay focused on user experience and AI logic during the hackathon timeframe.    Participating in Impact Hack 2025 was an inspiring experience — we’re happy we could build something warm and helpful for families with autistic children 🌈 "
+  },
+  
+  {
+    "title": "AI-Driven Artwork Exhibited at Uppsala Art Museum 🦌",
+    "url": "/posts/insilico-uppsala/",
+    "categories": "Projects",
+    "tags": "",
+    "date": "2023-12-05 10:00:00 +0100",
+    "content": "# Assisting Mat Collishaw’s *Insilico* in Uppsala  I had the chance to contribute to **Mat Collishaw’s touring exhibition** at the [Uppsala Art Museum](https://konstmuseum.uppsala.se/en/). [Mat Collishaw](https://en.wikipedia.org/wiki/Mat_Collishaw) is a contemporary British artist, known for using photography, film, and installation to explore themes of beauty, cruelty, and the darker sides of human nature.  ---  The work, [*Insilico*](https://matcollishaw.com/works/insilico/), features a **life-sized animatronic Stag** that slips, slides, and falls depending on the intensity of online abuse directed at individuals on Twitter.   The concept builds on **sentiment and hate speech analysis**. Bespoke software continuously trawls Twitter to detect who is most abused on the platform. Incoming tweets are rated according to their abusive intensity, and this data drives the Stag’s movements. A monitor placed behind the installation displays both the live Twitter feed and the code processing the results.  ---  My role was to **integrate AI-based sentiment analysis** into this system. By analyzing the language in real-time tweets, the model translated the fluctuations of online abuse into physical gestures of the animatronic Stag — a bridge between digital hostility and embodied vulnerability.     ---    > A poetic reminder that technology can not only amplify, but also expose the invisible currents of our collective behaviors."
   }
   
 ]

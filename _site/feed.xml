@@ -4,7 +4,7 @@
   <id>http://0.0.0.0:4000/</id>
   <title>Chencheng Liang</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll th eme for technical writing.</subtitle>
-  <updated>2025-09-11T22:05:13+02:00</updated>
+  <updated>2025-09-13T02:52:36+02:00</updated>
   <author>
     <name>Chencheng Liang</name>
     <uri>http://0.0.0.0:4000/</uri>
@@ -58,11 +58,35 @@
 
   
     
-    <category term="Projects" />
+    <category term="Events" />
     
   
 
   <summary>CozySteps — Our LLM-powered activity recommender for families with autistic children 🧩     Built during Impact Hack 2025 by AI Sweden     🧠 Background &amp;amp; Motivation  We joined Impact Hack 2025, a hackathon organized by AI Sweden that encourages teams to use AI-driven innovation to tackle real societal challenges.  Our chosen challenge: help families with autistic children discover suitable a...</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>AI-Driven Artwork Exhibited at Uppsala Art Museum 🦌</title>
+    <link href="http://0.0.0.0:4000/posts/insilico-uppsala/" rel="alternate" type="text/html" title="AI-Driven Artwork Exhibited at Uppsala Art Museum 🦌" />
+    <published>2023-12-05T10:00:00+01:00</published>
+  
+    <updated>2023-12-05T10:00:00+01:00</updated>
+  
+    <id>http://0.0.0.0:4000/posts/insilico-uppsala/</id>
+    <content type="text/html" src="http://0.0.0.0:4000/posts/insilico-uppsala/" />
+    <author>
+      <name>Chencheng Liang</name>
+    </author>
+
+  
+    
+    <category term="Projects" />
+    
+  
+
+  <summary># Assisting Mat Collishaw’s *Insilico* in Uppsala  I had the chance to contribute to **Mat Collishaw’s touring exhibition** at the [Uppsala Art Museum](https://konstmuseum.uppsala.se/en/). [Mat Collishaw](https://en.wikipedia.org/wiki/Mat_Collishaw) is a contemporary British artist, known for using photography, film, and installation to explore themes of beauty, cruelty, and the darker sides of...</summary>
 
   </entry>
 

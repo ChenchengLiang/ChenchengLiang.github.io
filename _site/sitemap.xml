@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
+<loc>http://0.0.0.0:4000/posts/insilico-uppsala/</loc>
+<lastmod>2023-12-05T10:00:00+01:00</lastmod>
+</url>
+<url>
 <loc>http://0.0.0.0:4000/posts/impact-hack-2025/</loc>
 <lastmod>2025-03-15T09:00:00+01:00</lastmod>
 </url>
@@ -10,15 +14,19 @@
 </url>
 <url>
 <loc>http://0.0.0.0:4000/research/</loc>
-<lastmod>2025-09-11T22:05:13+02:00</lastmod>
+<lastmod>2025-09-13T02:52:36+02:00</lastmod>
+</url>
+<url>
+<loc>http://0.0.0.0:4000/Art-Collection/</loc>
+<lastmod>2025-09-13T02:52:36+02:00</lastmod>
 </url>
 <url>
 <loc>http://0.0.0.0:4000/archives/</loc>
-<lastmod>2025-09-11T22:05:13+02:00</lastmod>
+<lastmod>2025-09-13T02:52:36+02:00</lastmod>
 </url>
 <url>
 <loc>http://0.0.0.0:4000/about/</loc>
-<lastmod>2025-09-11T22:05:13+02:00</lastmod>
+<lastmod>2025-09-13T02:52:36+02:00</lastmod>
 </url>
 <url>
 <loc>http://0.0.0.0:4000/</loc>

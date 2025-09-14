@@ -5,8 +5,7 @@ order: 1
 ---
 
 
-
-**Conferences**
+## Conferences 
 
 - **When GNNs Met a Word Equations Solver: Learning to Rank Equations**  
   Parosh Aziz Abdulla, Mohamed Faouzi Atig, Julie Cailler, Chencheng Liang, Philipp Rümmer  
@@ -24,7 +23,7 @@ order: 1
   [BibTex](/assets/bib/VMCAI-2024.txt) | [DOI](https://doi.org/10.1007/978-3-031-50524-9_13) | [PDF](/assets/paper-pdf/VMCAI-2024.pdf)
 
 
-**Journal Articles**
+## Journal Articles
 
 - **Adaptive Fuzzy Game-Based Energy-Efficient Localization in 3D Underwater Sensor Networks**  
   Yali Yuan, Chencheng Liang, Xu Chen, Thar Baker, Xiaoming Fu
@@ -46,14 +45,14 @@ order: 1
   In: _Journal of Intelligent & Fuzzy Systems: Applications in Engineering and Technology_, 29(4), pages 1711-1722, 2015.  
   [BibTex](/assets/bib/Fuzzy-system-2015.txt) | [DOI](https://doi.org/10.3233/IFS-151648) | [PDF](https://doi.org/10.3233/IFS-151648)
 
-**Workshops**
+## Workshops
 
 - **Exploring Representation of Horn clauses using GNNs**  
   Chencheng Liang, Philipp Rümmer, Marc Brockschmidt
   In: _8th Workshop on Practical Aspects of Automated Reasoning ([PAAR](https://paar2022.github.io/)) 2022_.  
   [BibTex](/assets/bib/PAAR-2022.txt) | [DOI](https://doi.org/10.48550/arXiv.2206.06986) | [PDF](/assets/paper-pdf/PAAR-2022.pdf)
 
-**Talks**
+## Talks
 
 
 - **Guiding Constraint Horn Clauses Solving using Graph Neural Networks**  
@@ -75,12 +74,13 @@ order: 1
   
 
 
-**Thesis**
+## Thesis
 
 - **Learning to Guide Automated Reasoning: A GNN-Based Framework**  
   PhD thesis | [PDF](/assets/paper-pdf/Thesis.pdf) | [Slides](/assets/slides/defense.pdf)
 
-**Service as Subreviewer**
+## Service as Subreviewer
+
 - **[FMCAD 2025](https://fmcad.org/FMCAD25/)** - 25th Conference on Formal Methods in Computer-Aided Design, Menlo Park, USA, 2025
 - **[FM 2024](https://www.fm24.polimi.it/)** - 26th International Symposium on Formal Methods, Milan, Italy, 2024
 - **[LPAR 2024](https://easychair.org/cfp/lpar2024)** - 25th International Conference on Logic for Programming, Artificial Intelligence and Reasoning, Port Louis, Mauritius, 2024

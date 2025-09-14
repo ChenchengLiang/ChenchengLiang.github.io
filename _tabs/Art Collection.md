@@ -1,7 +1,7 @@
 ---
 # the default layout is 'page'
 icon: fas fa-palette
-order: 3
+order: 5
 ---
 
 Welcome to my digital art gallery, featuring AI-generated cat illustrations in both traditional Ukiyo-e and contemporary styles. Each collection represents a unique artistic exploration of feline beauty and character.  

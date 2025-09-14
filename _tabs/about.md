@@ -1,7 +1,7 @@
 ---
 # the default layout is 'page'
 icon: fas fa-user
-order: 4
+order: 6
 ---
 
 Hello! I'm Chencheng Liang, a Ph.D. in Computer Science based in Stockholm, Sweden. 

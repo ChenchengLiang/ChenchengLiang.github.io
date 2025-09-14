@@ -96,6 +96,12 @@ order: 1
 - **[FroCoS 2019](https://www.andreipopescu.uk/frocos2019/)** - 12th International Symposium on Frontiers of Combining Systems, London, UK, 2019
 - **[CADE 2019](https://www.mat.ufrn.br/cade-27/)** - 27th International Conference on Automated Deduction, Natal, Brazil, 2019
 
+---
+
+>My research interests include automated theorem proving, graph neural networks, and formal methods.  I enjoy building tools that make reasoning systems smarter and more usable.
+
+>ORCID: [0000-0002-4926-8089](https://orcid.org/0000-0002-4926-8089)
+
 <!-- ## Research Interests
 
 - **Primary Area**: Your main research focus

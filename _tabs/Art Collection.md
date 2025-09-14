@@ -1,11 +1,12 @@
 ---
 # the default layout is 'page'
 icon: fas fa-palette
-order: 5
+order: 4
 ---
 
 Welcome to my digital art gallery, featuring AI-generated cat illustrations in both traditional Ukiyo-e and contemporary styles. Each collection represents a unique artistic exploration of feline beauty and character.  
 This work is also published on [RedNote](https://www.xiaohongshu.com/user/profile/5fc62d690000000001008463), a Chinese social networking and e-commerce platform similar to Instagram.
+
 
 ---
 
@@ -575,3 +576,14 @@ function changeImage(direction) {
   currentImageSpan.textContent = currentImageIndex + 1;
 }
 </script>
+
+
+>Not for commercial use. Licensing available upon request. No redistribution or modification allowed.
+{: .prompt-danger }
+
+> In addition to the existing collections, I also provide **customized pet art portrait services**. You can send me photos of your cat or dog, and I will create a series of portraits in similar artistic styles. The final works can be produced as framed prints, tailored to your preferences. 
+{: .prompt-tip }
+
+
+>**For inquiries and commissions, feel free to email me at chencheng.liang2077[at]gmail.com.**
+{: .prompt-info }

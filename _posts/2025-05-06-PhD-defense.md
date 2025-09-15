@@ -9,13 +9,13 @@ image: /assets/img/thesis-cover-img.jpg
 image_alt: Thesis cover
 ---
 
-I am happy to share that I have successfully defended my PhD thesis, titled **“Learning to Guide Automated Reasoning: A GNN-Based Framework.”**
+I am happy to share that I have successfully defended my PhD thesis, titled **“[Learning to Guide Automated Reasoning: A GNN-Based Framework](https://www.uu.se/en/department/information-technology/events/archive/2025-05-06-doctoral-thesis-defence-chencheng-liang-learning-to-guide-automated-reasoning-a-gnn-based-framework).”**
 
 ## Defense Details
 
 - **Date**: 6 May 2025  
 - **Time**: 13:15  
-- **Location**: Room 10132 Häggsalen, Ångström  
+- **Location**: [Room 10132 Häggsalen, Ångström](https://use.mazemap.com/#v=1&config=uu&campusid=49&zlevel=1&center=17.647891,59.838010&zoom=18&sharepoitype=poi&sharepoi=389932) 
 
 ---
 

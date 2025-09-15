@@ -20,8 +20,8 @@ This work is also published on [RedNote](https://www.xiaohongshu.com/user/profil
         <img src="/assets/img/cats/1/1.png" alt="Traditional Ukiyo-e Cat 1" />
         <div class="gallery-overlay">
           <div class="gallery-info">
-            <h3>Claws tear the void</h3>
-            <p>Worlds break asunder</p>
+            <h3>Cyber-Fantasy</h3>
+            <p>Dynamic Splash</p>
             <span class="image-count">6 images</span>
           </div>
         </div>
@@ -34,8 +34,8 @@ This work is also published on [RedNote](https://www.xiaohongshu.com/user/profil
         <img src="/assets/img/cats/2/1.png" alt="Wild European Cat" />
         <div class="gallery-overlay">
           <div class="gallery-info">
-            <h3>Red fox in rain</h3>
-            <p>Mountains as scroll</p>
+            <h3>Neo-Ukiyo-e</h3>
+            <p>Hayao Miyazaki</p>
             <span class="image-count">5 images</span>
           </div>
         </div>
@@ -48,8 +48,8 @@ This work is also published on [RedNote](https://www.xiaohongshu.com/user/profil
         <img src="/assets/img/cats/3/u2667282477_httpss.mj.runWpI773UvTNw_A_traditional_ukiyo-e_st_7dea69b6-3e4e-4bbd-8f9f-de9a2da9c66c_0.png" alt="Minimalist Ink Cat" />
         <div class="gallery-overlay">
           <div class="gallery-info">
-            <h3>A glimpse of brilliance</h3>
-            <p>A fleeting glance</p>
+            <h3>Neo-Ukiyo-e</h3>
+            <p>Akiyuki Shinbo 45 Degree</p>
             <span class="image-count">1 image</span>
           </div>
         </div>
@@ -62,8 +62,8 @@ This work is also published on [RedNote](https://www.xiaohongshu.com/user/profil
         <img src="/assets/img/cats/4/1.png" alt="Black & White Striped Cat" />
         <div class="gallery-overlay">
           <div class="gallery-info">
-            <h3>Crimson clouds roll</h3>
-            <p>Blades move free</p>
+            <h3>Neo-Ukiyo-e</h3>
+            <p>Ink Wash</p>
             <span class="image-count">4 images</span>
           </div>
         </div>
@@ -76,8 +76,8 @@ This work is also published on [RedNote](https://www.xiaohongshu.com/user/profil
         <img src="/assets/img/cats/5/1.png" alt="Dynamic Action Cat" />
         <div class="gallery-overlay">
           <div class="gallery-info">
-            <h3>Eyes vast as oceans</h3>
-            <p>Thunder held in silence</p>
+            <h3>Neo-Ukiyo-e</h3>
+            <p>Mythic Fantasy</p>
             <span class="image-count">3 images</span>
           </div>
         </div>
@@ -90,8 +90,8 @@ This work is also published on [RedNote](https://www.xiaohongshu.com/user/profil
         <img src="/assets/img/cats/6/u2667282477_httpss.mj.runjZKsExTVhZU_A_wild_black_striped_Eur_00daae3c-9f2e-4153-b803-66a680a026b5_1.png" alt="Middle-aged Cat" />
         <div class="gallery-overlay">
           <div class="gallery-info">
-            <h3>Endless mists drift</h3>
-            <p>Fierce winds cry</p>
+            <h3>Neo-Ukiyo-e</h3>
+            <p>Akira Kurosawa</p>
             <span class="image-count">5 images</span>
           </div>
         </div>
@@ -104,8 +104,8 @@ This work is also published on [RedNote](https://www.xiaohongshu.com/user/profil
         <img src="/assets/img/cats/7/1.png" alt="Traditional Ukiyo-e Cat" />
         <div class="gallery-overlay">
           <div class="gallery-info">
-            <h3>Storming sands swirl</h3>
-            <p>A lone shape rides high</p>
+            <h3>Neo-Ukiyo-e</h3>
+            <p>Dunhuang Fresco</p>
             <span class="image-count">4 images</span>
           </div>
         </div>
@@ -118,8 +118,8 @@ This work is also published on [RedNote](https://www.xiaohongshu.com/user/profil
         <img src="/assets/img/cats/8/1.png" alt="Wild Forest Cat" />
         <div class="gallery-overlay">
           <div class="gallery-info">
-            <h3>Shimmering lights collide</h3>
-            <p>Truth and phantom entwine</p>
+            <h3>Neo-Ukiyo-e</h3>
+            <p>Mystic Splash</p>
             <span class="image-count">4 images</span>
           </div>
         </div>
@@ -132,8 +132,8 @@ This work is also published on [RedNote](https://www.xiaohongshu.com/user/profil
         <img src="/assets/img/cats/9/1.png" alt="Dynamic Movement Cat" />
         <div class="gallery-overlay">
           <div class="gallery-info">
-            <h3>Moonlit tabby shines</h3>
-            <p>Wild winds arise</p>
+            <h3>Neo-Ukiyo-e</h3>
+            <p>Katsushika Hokusai</p>
             <span class="image-count">5 images</span>
           </div>
         </div>
@@ -398,8 +398,8 @@ This work is also published on [RedNote](https://www.xiaohongshu.com/user/profil
 // Gallery data organized by collections
 const galleryData = {
   'ukiyo-e-1': {
-    title: 'A leap like a rainbow, fearless in midair',
-    description: '爪裂虚空, 破维踏界, 一跃如虹, 凌空无惧',
+    title: '爪裂虚空, 破维踏界',
+    description: '一跃如虹, 凌空无惧',
     images: [
       '/assets/img/cats/1/1.png',
       '/assets/img/cats/1/u2667282477_A_middle-aged_black_and_white_striped_female_cat__4ee1eab4-a1c6-4174-b232-1ec0c206bb5b_0.png',
@@ -410,8 +410,8 @@ const galleryData = {
     ]
   },
   'wild-european': {
-    title: 'Lightning form, chasing the wind',
-    description: '赤狐烟雨, 山海绘卷, 身形如电, 踏影逐风',
+    title: '赤狐烟雨, 山海绘卷',
+    description: '身形如电, 踏影逐风',
     images: [
       '/assets/img/cats/2/1.png',
       '/assets/img/cats/2/u2667282477_httpss.mj.runjBjHXi_GhcQ_A_black_striped_European_2a497cdf-e62f-4938-a580-de56c5f1e8a5_3.png',
@@ -428,8 +428,8 @@ const galleryData = {
     ]
   },
   'black-white-striped': {
-    title: 'Twin moons in eyes, chasing shadows aloft.',
-    description: '云卷赤焰, 游刃无羁, 双瞳似月, 逐影凌空',
+    title: '云卷赤焰, 游刃无羁',
+    description: '双瞳似月, 逐影凌空',
     images: [
       '/assets/img/cats/4/1.png',
       '/assets/img/cats/4/u2667282477_httpss.mj.run3DhE7LQu_Ek_A_traditional_ukiyo-e_st_392a0b21-d20c-423b-86ee-f88af6c2c712_3.png',
@@ -438,8 +438,8 @@ const galleryData = {
     ]
   },
   'dynamic-action': {
-    title: 'Gaze fierce as fire, lone shadow turned steel.',
-    description: '眸深似海, 静纳风雷, 目光如炬, 孤影成锋',
+    title: '眸深似海, 静纳风雷',
+    description: '目光如炬, 孤影成锋',
     images: [
       '/assets/img/cats/5/1.png',
       '/assets/img/cats/5/u2667282477_httpss.mj.runHWY7nNDz7go_A_black_and_white_stripe_b7fabf09-b9b0-4144-b074-504c99ae63b0_1.png',
@@ -447,8 +447,8 @@ const galleryData = {
     ]
   },
   'middle-aged': {
-    title: 'Crimson flames in eyes, one roar in glory.',
-    description: '烟波渺渺, 风声猎猎, 赤眸冷焰, 一啸风华',
+    title: '烟波渺渺, 风声猎猎',
+    description: '赤眸冷焰, 一啸风华',
     images: [
       '/assets/img/cats/6/u2667282477_httpss.mj.runjZKsExTVhZU_A_wild_black_striped_Eur_00daae3c-9f2e-4153-b803-66a680a026b5_1.png',
       '/assets/img/cats/6/u2667282477_httpss.mj.runjZKsExTVhZU_A_wild_black_striped_Eur_461249dc-355f-4fa4-8cb5-ff7d7c1f1a9a_1.png',
@@ -458,8 +458,8 @@ const galleryData = {
     ]
   },
   'traditional-ukiyo-e': {
-    title: 'Eyes ablaze like torches, chasing shadows on the wind.',
-    description: '风沙漫卷, 孤影乘云, 炽眸若炬, 踏影随风',
+    title: '风沙漫卷, 孤影乘云',
+    description: '炽眸若炬, 踏影随风',
     images: [
       '/assets/img/cats/7/1.png',
       '/assets/img/cats/7/u2667282477_httpss.mj.runjZKsExTVhZU_No_text_no_seal_no_chara_b33925fb-5dd8-4e05-a718-ef1cbcbc90d8_0.png',
@@ -468,8 +468,8 @@ const galleryData = {
     ]
   },
   'wild-forest-cats': {
-    title: 'Flaming crimson eyes, claws rip the wind.',
-    description: '流光溢彩, 虚实相生, 赤瞳如焰, 裂爪生风',
+    title: '流光溢彩, 虚实相生',
+    description: '赤瞳如焰, 裂爪生风',
     images: [
       '/assets/img/cats/8/1.png',
       '/assets/img/cats/8/u2667282477_httpss.mj.runOjGTff5Crno_A_wild_black_striped_Eur_bf25943c-0c7d-4356-a563-bb9784167b10_0.png',
@@ -478,8 +478,8 @@ const galleryData = {
     ]
   },
   'dynamic-movement': {
-    title: 'Fiery gaze to the heights, rending shadows to blades',
-    description: '狸花映月, 荒风骤起, 凌霄炽目, 破影成锋',
+    title: '狸花映月, 荒风骤起',
+    description: '凌霄炽目, 破影成锋',
     images: [
       '/assets/img/cats/9/1.png',
       '/assets/img/cats/9/u2667282477_httpss.mj.runTqmAQV7TWeQ_httpss.mj.runWpI773UvTNw_7deb607f-2cbf-4090-a8f7-ec0d2f2a3139_1.png',

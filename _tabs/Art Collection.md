@@ -489,69 +489,54 @@ const galleryData = {
     ]
   }
 };
-
 let currentCollection = '';
 let currentImageIndex = 0;
 
-// Open modal when gallery item is clicked
-document.addEventListener('DOMContentLoaded', function() {
-  const galleryItems = document.querySelectorAll('.gallery-item');
+// 始终可用的事件委托（无需等待 DOMContentLoaded）
+document.addEventListener('click', function(e) {
+  // 打开
+  const item = e.target.closest('.gallery-item');
+  if (item) {
+    e.preventDefault();
+    e.stopPropagation();
+    openModal(item.getAttribute('data-collection'));
+    return;
+  }
+
+  // 关闭（点遮罩层）
   const modal = document.getElementById('gallery-modal');
-  const closeBtn = document.querySelector('.close');
+  if (modal && e.target === modal) {
+    closeModal();
+    return;
+  }
 
-  galleryItems.forEach(item => {
-    item.addEventListener('click', function(e) {
-      e.preventDefault();
-      e.stopPropagation();
-      const collection = this.getAttribute('data-collection');
-      console.log('Gallery item clicked:', collection);
-      openModal(collection);
-    });
-    
-    // Also handle clicks on the wrapped links
-    const links = item.querySelectorAll('a.popup');
-    links.forEach(link => {
-      link.addEventListener('click', function(e) {
-        e.preventDefault();
-        e.stopPropagation();
-        const collection = item.getAttribute('data-collection');
-        console.log('Gallery link clicked:', collection);
-        openModal(collection);
-      });
-    });
-  });
+  // 关闭（点叉）
+  if (e.target.matches('.close')) {
+    closeModal();
+    return;
+  }
 
-  closeBtn.addEventListener('click', closeModal);
-  modal.addEventListener('click', function(e) {
-    if (e.target === modal) {
-      closeModal();
-    }
-  });
+  // 左右导航按钮（已在按钮上内联 onclick，也保留这兜底）
+  if (e.target.matches('.nav-btn.prev')) changeImage(-1);
+  if (e.target.matches('.nav-btn.next')) changeImage(1);
+});
 
-  // Keyboard navigation
-  document.addEventListener('keydown', function(e) {
-    if (modal.style.display === 'block') {
-      if (e.key === 'Escape') {
-        closeModal();
-      } else if (e.key === 'ArrowLeft') {
-        changeImage(-1);
-      } else if (e.key === 'ArrowRight') {
-        changeImage(1);
-      }
-    }
-  });
+// PJAX 场景下，键盘事件也只需绑定一次即可
+document.addEventListener('keydown', function(e) {
+  const modal = document.getElementById('gallery-modal');
+  if (modal && modal.style.display === 'block') {
+    if (e.key === 'Escape') closeModal();
+    else if (e.key === 'ArrowLeft') changeImage(-1);
+    else if (e.key === 'ArrowRight') changeImage(1);
+  }
 });
 
 function openModal(collection) {
-  console.log('Opening modal for collection:', collection);
   currentCollection = collection;
   currentImageIndex = 0;
-  
+
   const collectionData = galleryData[collection];
-  if (!collectionData) {
-    console.error('Collection data not found for:', collection);
-    return;
-  }
+  if (!collectionData) return;
 
   const modal = document.getElementById('gallery-modal');
   const modalImage = document.getElementById('modal-image');
@@ -559,11 +544,6 @@ function openModal(collection) {
   const modalDescription = document.getElementById('modal-description');
   const currentImageSpan = document.getElementById('current-image');
   const totalImagesSpan = document.getElementById('total-images');
-
-  if (!modal) {
-    console.error('Modal element not found');
-    return;
-  }
 
   modalImage.src = collectionData.images[0];
   modalTitle.textContent = collectionData.title;
@@ -573,12 +553,11 @@ function openModal(collection) {
 
   modal.style.display = 'block';
   document.body.style.overflow = 'hidden';
-  console.log('Modal opened successfully');
 }
 
 function closeModal() {
   const modal = document.getElementById('gallery-modal');
-  modal.style.display = 'none';
+  if (modal) modal.style.display = 'none';
   document.body.style.overflow = 'auto';
 }
 
@@ -587,16 +566,12 @@ function changeImage(direction) {
   if (!collectionData) return;
 
   currentImageIndex += direction;
-  
-  if (currentImageIndex < 0) {
-    currentImageIndex = collectionData.images.length - 1;
-  } else if (currentImageIndex >= collectionData.images.length) {
-    currentImageIndex = 0;
-  }
+  if (currentImageIndex < 0) currentImageIndex = collectionData.images.length - 1;
+  else if (currentImageIndex >= collectionData.images.length) currentImageIndex = 0;
 
   const modalImage = document.getElementById('modal-image');
   const currentImageSpan = document.getElementById('current-image');
-  
+
   modalImage.src = collectionData.images[currentImageIndex];
   currentImageSpan.textContent = currentImageIndex + 1;
 }

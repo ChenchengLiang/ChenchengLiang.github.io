@@ -250,7 +250,7 @@ This work is also published on [RedNote](https://www.xiaohongshu.com/user/profil
 .modal {
   display: none;
   position: fixed;
-  z-index: 1000;
+  z-index: 9999;
   left: 0;
   top: 0;
   width: 100%;
@@ -500,9 +500,24 @@ document.addEventListener('DOMContentLoaded', function() {
   const closeBtn = document.querySelector('.close');
 
   galleryItems.forEach(item => {
-    item.addEventListener('click', function() {
+    item.addEventListener('click', function(e) {
+      e.preventDefault();
+      e.stopPropagation();
       const collection = this.getAttribute('data-collection');
+      console.log('Gallery item clicked:', collection);
       openModal(collection);
+    });
+    
+    // Also handle clicks on the wrapped links
+    const links = item.querySelectorAll('a.popup');
+    links.forEach(link => {
+      link.addEventListener('click', function(e) {
+        e.preventDefault();
+        e.stopPropagation();
+        const collection = item.getAttribute('data-collection');
+        console.log('Gallery link clicked:', collection);
+        openModal(collection);
+      });
     });
   });
 
@@ -528,11 +543,15 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 function openModal(collection) {
+  console.log('Opening modal for collection:', collection);
   currentCollection = collection;
   currentImageIndex = 0;
   
   const collectionData = galleryData[collection];
-  if (!collectionData) return;
+  if (!collectionData) {
+    console.error('Collection data not found for:', collection);
+    return;
+  }
 
   const modal = document.getElementById('gallery-modal');
   const modalImage = document.getElementById('modal-image');
@@ -540,6 +559,11 @@ function openModal(collection) {
   const modalDescription = document.getElementById('modal-description');
   const currentImageSpan = document.getElementById('current-image');
   const totalImagesSpan = document.getElementById('total-images');
+
+  if (!modal) {
+    console.error('Modal element not found');
+    return;
+  }
 
   modalImage.src = collectionData.images[0];
   modalTitle.textContent = collectionData.title;
@@ -549,6 +573,7 @@ function openModal(collection) {
 
   modal.style.display = 'block';
   document.body.style.overflow = 'hidden';
+  console.log('Modal opened successfully');
 }
 
 function closeModal() {

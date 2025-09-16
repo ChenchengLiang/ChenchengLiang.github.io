@@ -1,7 +1,7 @@
 // assets/js/art-gallery.js
 (function () {
     // 仅在 Art-Collection 页面启用，避免污染其它页面
-    if (!location.pathname.toLowerCase().startsWith('/art-collection/')) return;
+    if (!location.pathname.toLowerCase().includes('art-collection')) return;
   
     // —— 你的 galleryData 放这里（整段粘过来） ——
     const galleryData = {   
@@ -10,11 +10,11 @@
         description: '一跃如虹, 凌空无惧',
         images: [
           '/assets/img/cats/1/1.png',
-          '/assets/img/cats/1/u2667282477_A_middle-aged_black_and_white_striped_female_cat__4ee1eab4-a1c6-4174-b232-1ec0c206bb5b_0.png',
-          '/assets/img/cats/1/u2667282477_A_middle-aged_black_and_white_striped_female_cat__84fcbb6c-61a3-44e7-9d5a-5113d3c474d5_3.png',
-          '/assets/img/cats/1/u2667282477_A_middle-aged_black_and_white_striped_female_cat__b520de18-efa7-4b7d-bcbb-79d3468d4d9c_0.png',
-          '/assets/img/cats/1/u2667282477_A_middle-aged_black_and_white_striped_female_cat__b520de18-efa7-4b7d-bcbb-79d3468d4d9c_1.png',
-          '/assets/img/cats/1/u2667282477_A_middle-aged_black_and_white_striped_female_cat__ded69eaa-9ab1-4498-b822-6ac26a885677_0.png'
+          '/assets/img/cats/1/a.png',
+          '/assets/img/cats/1/b.png',
+          '/assets/img/cats/1/c.png',
+          '/assets/img/cats/1/d.png',
+          '/assets/img/cats/1/e.png'
         ]
       },
       'wild-european': {
@@ -22,17 +22,17 @@
         description: '身形如电, 踏影逐风',
         images: [
           '/assets/img/cats/2/1.png',
-          '/assets/img/cats/2/u2667282477_httpss.mj.runjBjHXi_GhcQ_A_black_striped_European_2a497cdf-e62f-4938-a580-de56c5f1e8a5_3.png',
-          '/assets/img/cats/2/u2667282477_httpss.mj.runjZKsExTVhZU_A_traditional_ukiyo-e_st_20198515-ada4-42f5-acf8-98fb492d87d6_1.png',
-          '/assets/img/cats/2/u2667282477_httpss.mj.runjZKsExTVhZU_A_traditional_ukiyo-e_st_a57fc5e8-5c5e-4f82-9898-5b2c96fd3226_2.png',
-          '/assets/img/cats/2/u2667282477_httpss.mj.runjZKsExTVhZU_A_traditional_ukiyo-e_st_bb654ca7-e759-4b84-aaf8-86a34dc18f4f_0.png'
+          '/assets/img/cats/2/2.png',
+          '/assets/img/cats/2/3.png',
+          '/assets/img/cats/2/4.png',
+          '/assets/img/cats/2/5.png'
         ]
       },
       'minimalist-ink': {
         title: 'A master’s contempt',
         description: '来自主子的惊鸿一瞥',
         images: [
-          '/assets/img/cats/3/u2667282477_httpss.mj.runWpI773UvTNw_A_traditional_ukiyo-e_st_7dea69b6-3e4e-4bbd-8f9f-de9a2da9c66c_0.png'
+          '/assets/img/cats/3/x.png'
         ]
       },
       'black-white-striped': {
@@ -40,9 +40,9 @@
         description: '双瞳似月, 逐影凌空',
         images: [
           '/assets/img/cats/4/1.png',
-          '/assets/img/cats/4/u2667282477_httpss.mj.run3DhE7LQu_Ek_A_traditional_ukiyo-e_st_392a0b21-d20c-423b-86ee-f88af6c2c712_3.png',
-          '/assets/img/cats/4/u2667282477_httpss.mj.runFtiRZBXpA2k_A_wild_black_striped_Eur_098e1afc-728e-4580-81ce-64e2e432ed39_0.png',
-          '/assets/img/cats/4/u2667282477_httpss.mj.runFtiRZBXpA2k_A_wild_black_striped_Eur_098e1afc-728e-4580-81ce-64e2e432ed39_2.png'
+          '/assets/img/cats/4/2.png',
+          '/assets/img/cats/4/3.png',
+          '/assets/img/cats/4/4.png'
         ]
       },
       'dynamic-action': {
@@ -72,7 +72,7 @@
           '/assets/img/cats/7/1.png',
           '/assets/img/cats/7/u2667282477_httpss.mj.runjZKsExTVhZU_No_text_no_seal_no_chara_b33925fb-5dd8-4e05-a718-ef1cbcbc90d8_0.png',
           '/assets/img/cats/7/u2667282477_httpss.mj.runqhfRr-DsgaA_A_traditional_ukiyo-e_st_fa0f5079-05fe-46df-994c-2ed445970458_3.png',
-          '/assets/img/cats/7/u2667282477_httpss.mj.runWpI773UvTNw_A_traditional_ukiyo-e_st_60357091-2a54-4e32-9354-f8e775d05ebe_2.png',
+          '/assets/img/cats/7/u2667282477_httpss.mj.runWpI773UvTNw_A_traditional_ukiyo-e_st_955a1739-c71c-4472-9004-5a51e7602834_0.png'
         ]
       },
       'wild-forest-cats': {
@@ -112,8 +112,18 @@
   
       if (e.target.matches('.close')) { closeModal(); return; }
   
-      if (e.target.matches('.nav-btn.prev')) changeImage(-1);
-      if (e.target.matches('.nav-btn.next')) changeImage(1);
+      if (e.target.matches('.nav-btn.prev')) { 
+        e.preventDefault();
+        e.stopPropagation();
+        changeImage(-1); 
+        return;
+      }
+      if (e.target.matches('.nav-btn.next')) { 
+        e.preventDefault();
+        e.stopPropagation();
+        changeImage(1); 
+        return;
+      }
     });
   
     // —— 键盘导航 —— 
@@ -127,27 +137,57 @@
     });
   
     function openModal(collection) {
+      console.log('Opening modal for collection:', collection);
       currentCollection = collection;
       currentImageIndex = 0;
   
       const data = galleryData[collection];
-      if (!data) return;
-  
+      if (!data) {
+        console.error('Gallery data not found for collection:', collection);
+        return;
+      }
+
+      console.log('Collection data:', data);
+      console.log('Number of images:', data.images.length);
+      console.log('Image paths:', data.images);
+
       const modal = document.getElementById('gallery-modal');
       const img = document.getElementById('modal-image');
       const title = document.getElementById('modal-title');
       const desc = document.getElementById('modal-description');
       const cur = document.getElementById('current-image');
       const total = document.getElementById('total-images');
-  
+
+      if (!modal || !img || !title || !desc || !cur || !total) {
+        console.error('Required modal elements not found');
+        return;
+      }
+
+      // Preload all images to ensure they're available
+      data.images.forEach((imagePath, index) => {
+        const preloadImg = new Image();
+        preloadImg.src = imagePath;
+      });
+
       img.src = data.images[0];
       title.textContent = data.title;
       desc.textContent = data.description;
       cur.textContent = '1';
       total.textContent = data.images.length;
-  
-      modal.style.display = 'block';
-      document.body.style.overflow = 'hidden';
+
+      // Add error handling for the first image
+      img.onerror = function() {
+        console.error('Failed to load first image:', data.images[0]);
+        // Show modal anyway if image fails to load
+        modal.style.display = 'block';
+        document.body.style.overflow = 'hidden';
+      };
+      
+      img.onload = function() {
+        // Show modal after first image loads
+        modal.style.display = 'block';
+        document.body.style.overflow = 'hidden';
+      };
     }
   
     function closeModal() {
@@ -158,14 +198,18 @@
   
     function changeImage(direction) {
       const data = galleryData[currentCollection];
-      if (!data) return;
-  
+      if (!data) {
+        console.error('Gallery data not found for current collection:', currentCollection);
+        return;
+      }
+
       currentImageIndex += direction;
       if (currentImageIndex < 0) currentImageIndex = data.images.length - 1;
       else if (currentImageIndex >= data.images.length) currentImageIndex = 0;
-  
+
       const img = document.getElementById('modal-image');
       const cur = document.getElementById('current-image');
+      
       img.src = data.images[currentImageIndex];
       cur.textContent = currentImageIndex + 1;
     }
@@ -174,5 +218,43 @@
     window.openModal   = openModal;
     window.closeModal  = closeModal;
     window.changeImage = changeImage;
+    
+    // Test function for debugging
+    window.testGallery = function(collection = 'ukiyo-e-1') {
+      console.log('Testing gallery for collection:', collection);
+      const data = galleryData[collection];
+      if (!data) {
+        console.error('Collection not found:', collection);
+        return;
+      }
+      
+      console.log('Collection data:', data);
+      console.log('Images:', data.images);
+      
+      // Test each image individually
+      data.images.forEach((imagePath, index) => {
+        const testImg = new Image();
+        testImg.onload = function() {
+          console.log(`✅ Image ${index + 1} loaded successfully:`, imagePath);
+        };
+        testImg.onerror = function() {
+          console.error(`❌ Image ${index + 1} failed to load:`, imagePath);
+        };
+        testImg.src = imagePath;
+      });
+    };
+    
+    // Debug information
+    console.log('Art Gallery initialized successfully');
+    console.log('Available collections:', Object.keys(galleryData));
+    
+    // Test navigation logic for ukiyo-e-1 collection
+    if (galleryData['ukiyo-e-1']) {
+      console.log('Testing ukiyo-e-1 navigation:');
+      const testData = galleryData['ukiyo-e-1'];
+      for (let i = 0; i < testData.images.length; i++) {
+        console.log(`  Index ${i}: ${testData.images[i]}`);
+      }
+    }
   })();
   

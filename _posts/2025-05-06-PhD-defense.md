@@ -19,14 +19,14 @@ I am happy to share that I have successfully defended my PhD thesis, titled **�
 
 ---
 
-- **Opponent**: Prof. Stephan Schulz, DHBW Stuttgart, Germany 
-- **Supervisor**: Prof. Philipp Rümmer, Uppsala University, Sweden  
-- **Chair**: Prof. Bengt Jonsson, Uppsala University, Sweden   
+- **Opponent**: Prof. [Stephan Schulz](https://wwwlehre.dhbw-stuttgart.de/~sschulz/DHBW_Stephan_Schulz/Stephan_Schulz.html), DHBW Stuttgart, Germany 
+- **Supervisor**: Prof. [Philipp Rümmer](http://www.philipp.ruemmer.org/), Uppsala University, Sweden  
+- **Chair**: Prof. [Bengt Jonsson](https://user.it.uu.se/~bengt/), Uppsala University, Sweden   
 - **Committee**:  
-  - Prof. Mihaela Sighireanu, ENS Paris-Saclay, France 
-  - Reader Konstantin Korovin, University of Manchester, U.K.  
-  - Prof. Christian Rohner, Uppsala University, Sweden  
-  - Prof. Tobias Wrigstad, Uppsala University, Sweden
+  - Prof. [Mihaela Sighireanu](https://www.irif.fr/~sighirea/), ENS Paris-Saclay, France 
+  - Reader [Konstantin Korovin](https://korovin.gitlab.io/), University of Manchester, U.K.  
+  - Prof. [Christian Rohner](https://www.uu.se/en/contact-and-organisation/staff?query=N3-454), Uppsala University, Sweden  
+  - Prof. [Tobias Wrigstad](https://wrigstad.com/), Uppsala University, Sweden
 
 ---
 

@@ -394,7 +394,7 @@ This work is also published on [RedNote](https://www.xiaohongshu.com/user/profil
 }
 </style>
 
-<script>
+<!-- <script>
 // Gallery data organized by collections
 const galleryData = {
   'ukiyo-e-1': {
@@ -575,7 +575,7 @@ function changeImage(direction) {
   modalImage.src = collectionData.images[currentImageIndex];
   currentImageSpan.textContent = currentImageIndex + 1;
 }
-</script>
+</script> -->
 
 
 >Not for commercial use. Licensing available upon request. No redistribution or modification allowed.

@@ -517,10 +517,10 @@ function toggleEducationSection() {
 }
 </style>
 
-## Contact
+<!-- ## Contact
 
 - Email: <u>chencheng.liang2077[at]gmail.com</u>
-- GitHub: [ChenchengLiang](https://github.com/ChenchengLiang)
+- GitHub: [ChenchengLiang](https://github.com/ChenchengLiang) -->
 
-> You can reach me most reliably by email.
+> **Contact:** You can reach me reliably by email: chencheng.liang2077[at]gmail.com
 {: .prompt-tip }

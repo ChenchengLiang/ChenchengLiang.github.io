@@ -19,8 +19,11 @@ I am happy to share that I have successfully defended my PhD thesis, titled **�
 
 ---
 
-- **Opponent**: Prof. [Stephan Schulz](https://wwwlehre.dhbw-stuttgart.de/~sschulz/DHBW_Stephan_Schulz/Stephan_Schulz.html), DHBW Stuttgart, Germany 
-- **Supervisor**: Prof. [Philipp Rümmer](http://www.philipp.ruemmer.org/), Uppsala University, Sweden  
+- **Opponent**: Prof. [Stephan Schulz](https://www.dhbw-stuttgart.de/studium/bachelor-studienangebot/technik/informatik/ansprechpersonen/prof-dr-rer-nat-stephan-schulz/), DHBW Stuttgart, Germany 
+- **Supervisor**: 
+  - Prof. [Philipp Rümmer](http://www.philipp.ruemmer.org/), Uppsala University, Sweden  & University of Regensburg, Germany
+  - Prof. [Yi Wang](https://user.it.uu.se/~wangyi/), Uppsala University, Sweden  
+  - Research Scientist [Marc Brockschmidt](https://www.linkedin.com/in/marc-brockschmidt-995866b0/?originalSubdomain=uk), Google DeepMind, UK
 - **Chair**: Prof. [Bengt Jonsson](https://user.it.uu.se/~bengt/), Uppsala University, Sweden   
 - **Committee**:  
   - Prof. [Mihaela Sighireanu](https://www.irif.fr/~sighirea/), ENS Paris-Saclay, France 

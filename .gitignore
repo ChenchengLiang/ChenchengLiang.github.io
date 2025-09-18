@@ -1,6 +1,7 @@
 .bundle/config
+/_site/
 _site/
 _site/feed.xml
 _site/sitemap.xml
 _site/assets/js/data/swconf.js
-.cv/*
+/cv/

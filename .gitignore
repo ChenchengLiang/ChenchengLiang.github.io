@@ -4,4 +4,11 @@ _site/
 _site/feed.xml
 _site/sitemap.xml
 _site/assets/js/data/swconf.js
-/cv/
+# 忽略 cv 下所有内容
+/cv/*
+/cv/latex/*
+# 但保留（不忽略）/cv/latex/resume.pdf
+!/cv/latex/
+!/cv/latex/resume.pdf
+!/cv/latex/resume.tex
+!/cv/latex/resume.bib

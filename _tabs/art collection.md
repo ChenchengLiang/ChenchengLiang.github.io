@@ -50,7 +50,7 @@ This work is also published on [RedNote](https://www.xiaohongshu.com/user/profil
           <div class="gallery-info">
             <h3>Neo-Ukiyo-e</h3>
             <p>Akiyuki Shinbo 45 Degree</p>
-            <span class="image-count">1 image</span>
+            <span class="image-count">2 images</span>
           </div>
         </div>
       </div>

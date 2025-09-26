@@ -32,7 +32,8 @@
         title: 'A master’s contempt',
         description: '来自主子的惊鸿一瞥',
         images: [
-          '/assets/img/cats/3/x.png'
+          '/assets/img/cats/3/x.png',
+          '/assets/img/cats/3/y.png'
         ]
       },
       'black-white-striped': {

@@ -10,9 +10,10 @@ order: 5
 
 
 
-Hello! I'm Chencheng Liang, a Ph.D. in Computer Science based in Stockholm, Sweden. 
 
-I am currently the co-founder of [Hainan Jiangshuo Industrial Co., Ltd.](https://www.jiangshuo-hn.com/), a company specialized in international trade, where I work remotely. I am deeply engaged in exploring how AI can drive workflow automation, a field that I see as increasingly crucial for the future of both industry and research.
+Hello! I'm Chencheng Liang, a Ph.D. in Computer Science based in Sweden.
+
+My work focuses on applying AI to real-world problems. As an independent consultant and entrepreneur, I build AI-driven workflows for automation, multilingual content generation, data processing, and digital commerce.
 
 Information on this site is compiled into my [cv](/cv/latex/resume.pdf).
 

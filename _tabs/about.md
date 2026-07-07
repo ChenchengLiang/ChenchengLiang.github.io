@@ -96,9 +96,11 @@ Information on this site is compiled into my [cv](/cv/latex/resume.pdf).
     </div>
     <div class="skill-category-details" id="programming-details" style="display: none;">
       <ul>
-        <li>Python, Scala, Java, C/C++, JavaScript, HTML/CSS</li>
-        <li>Git, Linux/Unix, Docker, Bash scripting</li>
-        <li>PyTorch, TensorFlow, PyG</li>
+<li>Python, Scala, Java, C/C++, JavaScript, HTML/CSS</li>
+<li>PyTorch, TensorFlow, PyG, Deep Learning, GNNs, Transformers, LLM workflows</li>
+<li>Git, Linux/Unix, Docker, Bash scripting, Slurm</li>
+<li>AWS, Cloudflare, Docker-based deployment, DNS/CDN configuration</li>
+<li>Web scraping, data pipelines, structured outputs, workflow automation</li>
       </ul>
     </div>
   </div>

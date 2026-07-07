@@ -13,7 +13,7 @@ order: 5
 
 Hello! I'm Chencheng Liang, a Ph.D. in Computer Science based in Sweden.
 
-My work focuses on applying AI to real-world problems. As an independent consultant and entrepreneur, I build AI-driven workflows for automation, multilingual content generation, data processing, and digital commerce.
+My work focuses on applying AI to real-world problems. With a research background in machine learning, graph neural networks, and automated reasoning, I build AI-driven systems and workflows that connect advanced models with practical applications in automation, data processing, and digital business.
 
 Information on this site is compiled into my [cv](/cv/latex/resume.pdf).
 

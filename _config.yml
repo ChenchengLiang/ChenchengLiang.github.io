@@ -152,6 +152,7 @@ pwa:
       # - "/example"  # URLs match `<SITE_URL>/example/*` will not be cached by the PWA
 
 paginate: 10
+paginate_path: /updates/page:num/
 
 # The base URL of your site
 baseurl: ""
@@ -220,11 +221,9 @@ exclude:
   - "*.config.js"
   - "package*.json"
 
-# jekyll-archives:
-#   enabled: [categories]  # Remove 'tags' from this line
-#   layouts:
-#     category: category
-#     # Remove the tag layout line
-#   permalinks:
-#     # Remove the tag permalink line
-#     category: /categories/:name/
+jekyll-archives:
+  enabled: [categories]
+  layouts:
+    category: category
+  permalinks:
+    category: /categories/:name/

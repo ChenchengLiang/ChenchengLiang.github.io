@@ -148,7 +148,9 @@ This work is also published on [RedNote](https://www.xiaohongshu.com/user/profil
     <span class="close">&times;</span>
     <div class="modal-gallery">
       <div class="modal-image-container">
-        <img id="modal-image" src="" alt="" />
+        <a href="#" onclick="return false;" tabindex="-1">
+          <img id="modal-image" src="/assets/img/cats/1/1.png" alt="" />
+        </a>
         <div class="modal-nav">
           <button class="nav-btn prev">&#10094;</button>
           <button class="nav-btn next">&#10095;</button>

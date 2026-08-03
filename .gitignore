@@ -1,14 +1,33 @@
-.bundle/config
+# Jekyll build output and caches
 /_site/
-_site/
-_site/feed.xml
-_site/sitemap.xml
-_site/assets/js/data/swconf.js
-# 忽略 cv 下所有内容
-/cv/*
-/cv/latex/*
-# 但保留（不忽略）/cv/latex/resume.pdf
-!/cv/latex/
-!/cv/latex/resume.pdf
-!/cv/latex/resume.tex
-!/cv/latex/resume.bib
+/.jekyll-cache/
+/.jekyll-metadata
+/.sass-cache/
+
+# Ruby dependency caches
+/.bundle/
+/vendor/
+
+# Private local content: never publish
+/cv/
+/AGENTS.md
+/PROJECT_OVERVIEW.md
+/WRITING_STYLE.md
+/CODE_STRUCTURE.md
+/LOCAL_ENVIRONMENT.md
+
+# Local environment and credentials
+/.env
+/.env.*
+!/.env.example
+*.key
+*.pem
+*.p12
+*.pfx
+
+# Editor and operating-system files
+/.idea/
+/.vscode/
+.DS_Store
+Thumbs.db
+*.swp

@@ -4,8 +4,7 @@ icon: fas fa-microscope
 order: 1
 ---
 
-
-## Conferences 
+## Conferences
 
 - **When GNNs Met a Word Equations Solver: Learning to Rank Equations**  
   Parosh Aziz Abdulla, Mohamed Faouzi Atig, Julie Cailler, Chencheng Liang, Philipp Rümmer  
@@ -13,15 +12,18 @@ order: 1
   [BibTex](/assets/bib/FroCoS-2025.txt) | [DOI](https://doi.org/10.48550/arXiv.2506.23784) | [PDF](/assets/paper-pdf/FroCoS-2025.pdf)
 
 - **Guiding Word Equation Solving Using Graph Neural Networks**  
-  	Parosh Aziz Abdulla, Mohamed Faouzi Atig, Julie Cailler, Chencheng Liang, Philipp Rümmer
+  
+      Parosh Aziz Abdulla, Mohamed Faouzi Atig, Julie Cailler, Chencheng Liang, Philipp Rümmer
+  
   In: _22nd International Symposium on Automated Technology for Verification and Analysis ([ATVA](https://atva-conference.org/2024/)) 2024_.  
   [BibTex](/assets/bib/ATVA-2024.txt) | [DOI](https://doi.org/10.1007/978-3-031-78709-6_14) | [PDF](/assets/paper-pdf/AVTA-2024.pdf)
 
 - **Boosting Constrained Horn Solving by Unsat Core Learning**  
-  	Parosh Aziz Abdulla, Chencheng Liang, Philipp Rümmer
+  
+      Parosh Aziz Abdulla, Chencheng Liang, Philipp Rümmer
+  
   In: _25th International Conference on Verification, Model Checking, and Abstract Interpretation ([VMCAI](https://popl24.sigplan.org/home/VMCAI-2024)) 2024_.  
   [BibTex](/assets/bib/VMCAI-2024.txt) | [DOI](https://doi.org/10.1007/978-3-031-50524-9_13) | [PDF](/assets/paper-pdf/VMCAI-2024.pdf)
-
 
 ## Journal Articles
 
@@ -54,7 +56,6 @@ order: 1
 
 ## Talks
 
-
 - **Guiding Constraint Horn Clauses Solving using Graph Neural Networks**  
   At: _[Henzinger Thomas Group](https://ista.ac.at/en/research/henzinger_thomas-group/) in Institute of Science and Technology Austria (ISTA)_, Austria, 2024.  
   [Slides](/assets/slides/ISTA-2024.pdf)
@@ -71,15 +72,12 @@ order: 1
   At: _13th Alpine Verification Meeting ([AVM](https://www.fit.vut.cz/fit/news/2468/.en))_, Czech Republic, 2019.  
   [Slides](/assets/slides/AVM-19.pdf) 
 
-  
-
-
 ## Thesis
 
 - **Learning to Guide Automated Reasoning: A GNN-Based Framework**  
   PhD thesis | [PDF](/assets/paper-pdf/Thesis.pdf) | [Slides](/assets/slides/defense.pdf)
 
-## Service as Subreviewer
+## Service as Reviewer
 
 - **[FMCAD 2025](https://fmcad.org/FMCAD25/)** - 25th Conference on Formal Methods in Computer-Aided Design, Menlo Park, USA, 2025
 - **[FM 2024](https://www.fm24.polimi.it/)** - 26th International Symposium on Formal Methods, Milan, Italy, 2024
@@ -98,9 +96,9 @@ order: 1
 
 ---
 
->My research interests include automated theorem proving, graph neural networks, and formal methods.  I enjoy building tools that make reasoning systems smarter and more usable.
+> My research interests include automated theorem proving, graph neural networks, and formal methods.  I enjoy building tools that make reasoning systems smarter and more usable.
 
->ORCID: [0000-0002-4926-8089](https://orcid.org/0000-0002-4926-8089)
+> ORCID: [0000-0002-4926-8089](https://orcid.org/0000-0002-4926-8089)
 
 <!-- ## Research Interests
 

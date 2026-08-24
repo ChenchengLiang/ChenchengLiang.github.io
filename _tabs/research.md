@@ -12,16 +12,12 @@ order: 1
   [BibTex](/assets/bib/FroCoS-2025.txt) | [DOI](https://doi.org/10.48550/arXiv.2506.23784) | [PDF](/assets/paper-pdf/FroCoS-2025.pdf)
 
 - **Guiding Word Equation Solving Using Graph Neural Networks**  
-  
-      Parosh Aziz Abdulla, Mohamed Faouzi Atig, Julie Cailler, Chencheng Liang, Philipp Rümmer
-  
+  Parosh Aziz Abdulla, Mohamed Faouzi Atig, Julie Cailler, Chencheng Liang, Philipp Rümmer  
   In: _22nd International Symposium on Automated Technology for Verification and Analysis ([ATVA](https://atva-conference.org/2024/)) 2024_.  
   [BibTex](/assets/bib/ATVA-2024.txt) | [DOI](https://doi.org/10.1007/978-3-031-78709-6_14) | [PDF](/assets/paper-pdf/AVTA-2024.pdf)
 
 - **Boosting Constrained Horn Solving by Unsat Core Learning**  
-  
-      Parosh Aziz Abdulla, Chencheng Liang, Philipp Rümmer
-  
+  Parosh Aziz Abdulla, Chencheng Liang, Philipp Rümmer  
   In: _25th International Conference on Verification, Model Checking, and Abstract Interpretation ([VMCAI](https://popl24.sigplan.org/home/VMCAI-2024)) 2024_.  
   [BibTex](/assets/bib/VMCAI-2024.txt) | [DOI](https://doi.org/10.1007/978-3-031-50524-9_13) | [PDF](/assets/paper-pdf/VMCAI-2024.pdf)
 

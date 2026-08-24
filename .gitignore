@@ -10,10 +10,13 @@
 
 # Private local content: never publish
 /cv/
+/.agent/
 /AGENTS.md
 /PROJECT_OVERVIEW.md
+/项目总纲.md
 /WRITING_STYLE.md
 /CODE_STRUCTURE.md
+/RESOURCE.md
 /LOCAL_ENVIRONMENT.md
 
 # Local environment and credentials

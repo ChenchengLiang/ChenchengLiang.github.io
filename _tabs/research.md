@@ -53,7 +53,7 @@ order: 1
 ## Talks
 
 - **Guiding Constraint Horn Clauses Solving using Graph Neural Networks**  
-  At: _[Henzinger Thomas Group](https://ista.ac.at/en/research/henzinger_thomas-group/) in Institute of Science and Technology Austria (ISTA)_, Austria, 2024.  
+  At: _[Henzinger Thomas Group](https://ista.ac.at/en/research/henzinger_thomas-group/) in Institute of Science and Technology Austria ([ISTA](https://ista.ac.at/en/home))_, Austria, 2024.  
   [Slides](/assets/slides/ISTA-2024.pdf)
 
 - **Boosting Constrained Horn Solving by Unsat Core Learning**  

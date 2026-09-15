@@ -1,0 +1,21 @@
+---
+---
+
+/* prettier-ignore */
+@use 'main
+{%- if jekyll.environment == 'production' -%}
+  .bundle
+{%- endif -%}
+';
+
+/* Keep Chirpy's desktop side panel out of every page layout. */
+#panel-wrapper {
+  display: none !important;
+}
+
+/* Reclaim the grid columns that were reserved for the hidden panel. */
+main.col-xl-9,
+#tail-wrapper.col-xl-9 {
+  flex: 0 0 100%;
+  max-width: 100%;
+}

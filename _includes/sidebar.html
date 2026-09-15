@@ -18,6 +18,13 @@
 
   <nav class="flex-column flex-grow-1 w-100 ps-0">
     <ul class="nav">
+      <!-- home -->
+      <li class="nav-item{% if page.url == '/' %}{{ " active" }}{% endif %}">
+        <a href="{{ '/' | relative_url }}" class="nav-link">
+          <i class="fa-fw fas fa-home"></i>
+          <span>{{ site.data.locales[include.lang].tabs.home | upcase }}</span>
+        </a>
+      </li>
       <!-- updates -->
       <li class="nav-item{% if page.layout == 'home' %}{{ " active" }}{% endif %}">
         <a href="{{ '/updates/' | relative_url }}" class="nav-link">
@@ -27,8 +34,11 @@
       </li>
       <!-- the real tabs -->
       {% for tab in site.tabs %}
+        {% if tab.url == '/about/' %}
+          {% continue %}
+        {% endif %}
         {% assign tab_is_active = false %}
-        {% if tab.url == page.url or page.url == '/' and tab.url == '/about/' %}
+        {% if tab.url == page.url %}
           {% assign tab_is_active = true %}
         {% endif %}
         <li class="nav-item{% if tab_is_active %}{{ " active" }}{% endif %}">

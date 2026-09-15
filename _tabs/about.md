@@ -7,11 +7,7 @@ order: 5
 <link rel="stylesheet" href="/assets/css/style_about_tab.css">
 <script src="/assets/js/about_tab.js"></script>
 
-
-
-
-
-Hello! I'm Chencheng Liang, a Ph.D. in Computer Science based in Sweden.
+Hello! I'm Chencheng Liang, an AI Researcher & Engineer based in Sweden.
 
 My work focuses on applying AI to real-world problems. With a research background in machine learning, graph neural networks, and automated reasoning, I build AI-driven systems and workflows that connect advanced models with practical applications in automation, data processing, and digital business.
 
@@ -39,7 +35,7 @@ Information on this site is compiled into my [cv](/assets/cv/resume.pdf).
     </div>
   </div>
 
-  <div class="education-entry">
+<div class="education-entry">
     <div class="education-header">
       <h3>Master Degree in Computer Science <span class="year">2018</span></h3>
       <p class="institution"><em>University of Göttingen
@@ -53,7 +49,7 @@ Information on this site is compiled into my [cv](/assets/cv/resume.pdf).
     </div>
   </div>
 
-  <div class="education-entry">
+<div class="education-entry">
     <div class="education-header">
       <h3>Bachelor in Software Engineering <span class="year">2014</span></h3>
       <p class="institution"><em>Chengdu University</em> | China</p>
@@ -105,7 +101,7 @@ Information on this site is compiled into my [cv](/assets/cv/resume.pdf).
     </div>
   </div>
 
-  <div class="skill-category">
+<div class="skill-category">
     <div class="skill-category-header" onclick="toggleSkillCategory('data-ai')">
       <h4>Data Science & AI <span class="skill-toggle-icon" id="data-ai-icon">+</span></h4>
     </div>
@@ -122,7 +118,7 @@ Information on this site is compiled into my [cv](/assets/cv/resume.pdf).
     </div>
   </div>
 
-  <div class="skill-category">
+<div class="skill-category">
     <div class="skill-category-header" onclick="toggleSkillCategory('research')">
       <h4>Research & Analysis <span class="skill-toggle-icon" id="research-icon">+</span></h4>
     </div>
@@ -136,7 +132,7 @@ Information on this site is compiled into my [cv](/assets/cv/resume.pdf).
     </div>
   </div>
 
-  <div class="skill-category">
+<div class="skill-category">
     <div class="skill-category-header" onclick="toggleSkillCategory('tools')">
       <h4>Tools & Platforms <span class="skill-toggle-icon" id="tools-icon">+</span></h4>
     </div>
@@ -149,7 +145,7 @@ Information on this site is compiled into my [cv](/assets/cv/resume.pdf).
     </div>
   </div>
 
-  <div class="skill-category">
+<div class="skill-category">
     <div class="skill-category-header" onclick="toggleSkillCategory('languages')">
       <h4>Languages <span class="skill-toggle-icon" id="languages-icon">+</span></h4>
     </div>
@@ -160,7 +156,7 @@ Information on this site is compiled into my [cv](/assets/cv/resume.pdf).
     </div>
   </div>
 
-  <div class="skill-category">
+<div class="skill-category">
     <div class="skill-category-header" onclick="toggleSkillCategory('creative')">
       <h4>Creative & Media <span class="skill-toggle-icon" id="creative-icon">+</span></h4>
     </div>
@@ -173,7 +169,7 @@ Information on this site is compiled into my [cv](/assets/cv/resume.pdf).
     </div>
   </div>
 
-  <div class="skill-category">
+<div class="skill-category">
     <div class="skill-category-header" onclick="toggleSkillCategory('business')">
       <h4>Business & Consulting <span class="skill-toggle-icon" id="business-icon">+</span></h4>
     </div>
@@ -187,12 +183,10 @@ Information on this site is compiled into my [cv](/assets/cv/resume.pdf).
   </div>
 </div>
 
-
-
 <!-- ## Contact
 
 - Email: <u>chencheng.liang2077[at]gmail.com</u>
 - GitHub: [ChenchengLiang](https://github.com/ChenchengLiang) -->
 
-> **Contact:** You can reach me reliably by email: chencheng.liang2077[at]gmail.com
+> **Contact:** You can reach me by email: chencheng.liang2077[at]gmail.com
 {: .prompt-tip }

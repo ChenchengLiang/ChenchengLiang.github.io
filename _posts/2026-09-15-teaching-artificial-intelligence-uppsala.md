@@ -43,3 +43,5 @@ This year's course is supported by five Teaching Assistants: [**Diletta Goglia**
 ---
 
 <img src="/assets/img/2026-09-tech-1.jpg" alt="Artificial Intelligence lecture in a Uppsala University classroom" style="max-width: 100%; height: auto; border-radius: 6px;" />
+
+<div class="text-center text-muted"><small>Photo by Yu Di, my flatmate.</small></div>

@@ -7,7 +7,6 @@ order: 4
 Welcome to my digital art gallery, featuring AI-generated cat illustrations in both traditional Ukiyo-e and contemporary styles. Each collection represents a unique artistic exploration of feline beauty and character.  
 This work is also published on [RedNote](https://www.xiaohongshu.com/user/profile/5fc62d690000000001008463), a Chinese social networking and e-commerce platform similar to Instagram.
 
-
 ---
 
 ## Gallery
@@ -41,7 +40,7 @@ This work is also published on [RedNote](https://www.xiaohongshu.com/user/profil
         </div>
       </div>
     </div>
-
+    
     <!-- Collection 3: Minimalist Ink Cats -->
     <div class="gallery-item" data-collection="minimalist-ink">
       <div class="gallery-cover">
@@ -55,7 +54,7 @@ This work is also published on [RedNote](https://www.xiaohongshu.com/user/profil
         </div>
       </div>
     </div>
-
+    
     <!-- Collection 4: Black & White Striped Cats -->
     <div class="gallery-item" data-collection="black-white-striped">
       <div class="gallery-cover">
@@ -69,7 +68,7 @@ This work is also published on [RedNote](https://www.xiaohongshu.com/user/profil
         </div>
       </div>
     </div>
-
+    
     <!-- Collection 5: Dynamic Action Cats -->
     <div class="gallery-item" data-collection="dynamic-action">
       <div class="gallery-cover">
@@ -83,7 +82,7 @@ This work is also published on [RedNote](https://www.xiaohongshu.com/user/profil
         </div>
       </div>
     </div>
-
+    
     <!-- Collection 6: Middle-aged Cats -->
     <div class="gallery-item" data-collection="middle-aged">
       <div class="gallery-cover">
@@ -97,7 +96,7 @@ This work is also published on [RedNote](https://www.xiaohongshu.com/user/profil
         </div>
       </div>
     </div>
-
+    
     <!-- Collection 7: Traditional Ukiyo-e Collection -->
     <div class="gallery-item" data-collection="traditional-ukiyo-e">
       <div class="gallery-cover">
@@ -111,7 +110,7 @@ This work is also published on [RedNote](https://www.xiaohongshu.com/user/profil
         </div>
       </div>
     </div>
-
+    
     <!-- Collection 8: Wild Forest Cats -->
     <div class="gallery-item" data-collection="wild-forest-cats">
       <div class="gallery-cover">
@@ -125,7 +124,7 @@ This work is also published on [RedNote](https://www.xiaohongshu.com/user/profil
         </div>
       </div>
     </div>
-
+    
     <!-- Collection 9: Dynamic Movement Cats -->
     <div class="gallery-item" data-collection="dynamic-movement">
       <div class="gallery-cover">
@@ -139,13 +138,15 @@ This work is also published on [RedNote](https://www.xiaohongshu.com/user/profil
         </div>
       </div>
     </div>
-  </div>
+
+</div>
 </div>
 
 <!-- Modal Gallery -->
+
 <div id="gallery-modal" class="modal">
   <div class="modal-content">
-    <span class="close">&times;</span>
+    <span class="close">×</span>
     <div class="modal-gallery">
       <div class="modal-image-container">
         <a href="#" onclick="return false;" tabindex="-1">
@@ -378,21 +379,21 @@ This work is also published on [RedNote](https://www.xiaohongshu.com/user/profil
     grid-template-columns: 1fr;
     gap: 1.5rem;
   }
-  
+
   .modal-content {
     width: 95%;
     height: 95vh;
     margin: 2.5% auto;
   }
-  
+
   .modal-gallery {
     flex-direction: column;
   }
-  
+
   .modal-image-container {
     flex: 3;
   }
-  
+
   .modal-info {
     flex: 1;
     padding: 1rem;
@@ -400,13 +401,19 @@ This work is also published on [RedNote](https://www.xiaohongshu.com/user/profil
 }
 </style>
 
+> Not for commercial use. Licensing available upon request. No redistribution or modification allowed.
+> {: .prompt-danger }
 
->Not for commercial use. Licensing available upon request. No redistribution or modification allowed.
-{: .prompt-danger }
+> 
 
-> In addition to the existing collections, I also provide **customized pet art portrait services**. You can send me photos of your cat or dog, and I will create a series of portraits in similar artistic styles. The final works can be produced as framed prints, tailored to your preferences. 
-{: .prompt-tip }
+<!--
+In addition to the existing collections, I also provide **customized pet art portrait services**. You can send me photos of your cat or dog, and I will create a series of portraits in similar artistic styles. The final works can be produced as framed prints, tailored to your preferences.
 
+For inquiries and commissions, feel free to email me at chencheng.liang2077[at]gmail.com.
+-->
 
->**For inquiries and commissions, feel free to email me at chencheng.liang2077[at]gmail.com.**
-{: .prompt-info }
+<!--
+In addition to the existing collections, I also provide **customized pet art portrait services**. You can send me photos of your cat or dog, and I will create a series of portraits in similar artistic styles. The final works can be produced as framed prints, tailored to your preferences.
+11 
+For inquiries and commissions, feel free to email me at chencheng.liang2077[at]gmail.com.
+-->

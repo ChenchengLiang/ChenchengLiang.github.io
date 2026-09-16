@@ -402,4 +402,4 @@ This work is also published on [RedNote](https://www.xiaohongshu.com/user/profil
 </style>
 
 > Not for commercial use. Licensing available upon request. No redistribution or modification allowed.
-> {: .prompt-danger }
+{: .prompt-danger }

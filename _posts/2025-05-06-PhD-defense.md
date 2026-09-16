@@ -5,7 +5,7 @@ date: 2025-05-06 18:00:00 +0200
 categories: [News]
 toc: true
 comments: false
-image: /assets/img/thesis-cover-img.jpg
+image: /assets/img/posts/2025-05-06-phd-defense/cover.jpg
 image_alt: Thesis cover
 ---
 
@@ -43,4 +43,4 @@ Symbolic solvers rely on hand‑crafted heuristics that often fail to generalize
 
 
 
-<img src="/assets/img/thesis-cover.jpg" alt="Thesis cover" style="max-width: 100%; height: auto; border-radius: 6px;" />
+<img src="/assets/img/posts/2025-05-06-phd-defense/thesis-cover.jpg" alt="Thesis cover" style="max-width: 100%; height: auto; border-radius: 6px;" />

@@ -5,7 +5,7 @@ date: 2024-12-06 18:00:00 +0200
 categories: [Teaching]
 toc: true
 comments: false
-image: /assets/img/project-cs-2024.png
+image: /assets/img/posts/2024-12-06-project-cs-2024-supervision/cover.png
 image_alt: CS Project 2024 Group
 ---
 
@@ -55,4 +55,4 @@ Each student brought unique perspectives and skills to the project, contributing
 
 ---
 <!-- 
-<img src="/assets/img/project-cs-2024.png" alt="CS Project 2024 Group" style="max-width: 100%; height: auto; border-radius: 6px;" /> -->
+<img src="/assets/img/posts/2024-12-06-project-cs-2024-supervision/cover.png" alt="CS Project 2024 Group" style="max-width: 100%; height: auto; border-radius: 6px;" /> -->

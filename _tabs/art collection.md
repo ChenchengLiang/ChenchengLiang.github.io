@@ -409,11 +409,4 @@ This work is also published on [RedNote](https://www.xiaohongshu.com/user/profil
 <!--
 In addition to the existing collections, I also provide **customized pet art portrait services**. You can send me photos of your cat or dog, and I will create a series of portraits in similar artistic styles. The final works can be produced as framed prints, tailored to your preferences.
 
-For inquiries and commissions, feel free to email me at chencheng.liang2077[at]gmail.com.
--->
-
-<!--
-In addition to the existing collections, I also provide **customized pet art portrait services**. You can send me photos of your cat or dog, and I will create a series of portraits in similar artistic styles. The final works can be produced as framed prints, tailored to your preferences.
-11 
-For inquiries and commissions, feel free to email me at chencheng.liang2077[at]gmail.com.
--->
+Forinquiries and commissions, feel free to email me at chencheng.liang2077[at]gmail.

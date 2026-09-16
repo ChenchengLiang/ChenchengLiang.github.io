@@ -19,8 +19,6 @@ I also presented my early PhD work, **“Guiding Interpolation for Model Checkin
 
 The [Alpine Verification Meeting](https://avm.sosy-lab.org/index.php) is an informal research meeting focused on current problems in **formal verification**. Rather than following the conventional paper-submission and proceedings format, AVM brings researchers together to share recent, ongoing, or submitted work, discuss open problems, and explore possible collaborations.
 
-The 2019 edition had a particularly strong doctoral-research focus. According to the [official report from Brno University of Technology](https://www.fit.vut.cz/fit/news/2468/.en), doctoral students presented much of the research programme, alongside invited lectures by **Javier Esparza**, **Mauro Pezzè**, and **Nikos Gorogiannis**.
-
 The talks reflected the breadth of the verification community, including topics such as:
 
 - automated and software verification  

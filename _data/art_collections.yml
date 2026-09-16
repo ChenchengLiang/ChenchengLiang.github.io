@@ -1,0 +1,109 @@
+- id: ukiyo-e-1
+  card_title: Cyber-Fantasy
+  card_subtitle: Dynamic Splash
+  cover_alt: A dynamic black-and-white cat in a blue and coral fantasy scene
+  title: 爪裂虚空, 破维踏界
+  description: 一跃如虹, 凌空无惧
+  images:
+    - /assets/img/cats/1/1.png
+    - /assets/img/cats/1/a.png
+    - /assets/img/cats/1/b.png
+    - /assets/img/cats/1/c.png
+    - /assets/img/cats/1/d.png
+    - /assets/img/cats/1/e.png
+
+- id: wild-european
+  card_title: Neo-Ukiyo-e
+  card_subtitle: Hayao Miyazaki
+  cover_alt: A wild European cat rendered in a colorful neo-ukiyo-e style
+  title: 赤狐烟雨, 山海绘卷
+  description: 身形如电, 踏影逐风
+  images:
+    - /assets/img/cats/2/1.png
+    - /assets/img/cats/2/2.png
+    - /assets/img/cats/2/3.png
+    - /assets/img/cats/2/4.png
+    - /assets/img/cats/2/5.png
+
+- id: minimalist-ink
+  card_title: Neo-Ukiyo-e
+  card_subtitle: Akiyuki Shinbo 45 Degree
+  cover_alt: A minimalist ink portrait of a cat looking down at the viewer
+  title: "A master's contempt"
+  description: 来自主子的惊鸿一瞥
+  images:
+    - /assets/img/cats/3/x.png
+    - /assets/img/cats/3/y.png
+
+- id: black-white-striped
+  card_title: Neo-Ukiyo-e
+  card_subtitle: Ink Wash
+  cover_alt: A black-and-white striped cat in an expressive ink-wash scene
+  title: 云卷赤焰, 游刃无羁
+  description: 双瞳似月, 逐影凌空
+  images:
+    - /assets/img/cats/4/1.png
+    - /assets/img/cats/4/2.png
+    - /assets/img/cats/4/3.png
+    - /assets/img/cats/4/4.png
+
+- id: dynamic-action
+  card_title: Neo-Ukiyo-e
+  card_subtitle: Mythic Fantasy
+  cover_alt: A black-and-white cat in a dramatic mythic fantasy composition
+  title: 眸深似海, 静纳风雷
+  description: 目光如炬, 孤影成锋
+  images:
+    - /assets/img/cats/5/1.png
+    - /assets/img/cats/5/u2667282477_httpss.mj.runHWY7nNDz7go_A_black_and_white_stripe_b7fabf09-b9b0-4144-b074-504c99ae63b0_1.png
+    - /assets/img/cats/5/u2667282477_httpss.mj.runHWY7nNDz7go_A_black_and_white_stripe_b7fabf09-b9b0-4144-b074-504c99ae63b0_3.png
+
+- id: middle-aged
+  card_title: Neo-Ukiyo-e
+  card_subtitle: Akira Kurosawa
+  cover_alt: A mature wild cat in a cinematic neo-ukiyo-e composition
+  title: 烟波渺渺, 风声猎猎
+  description: 赤眸冷焰, 一啸风华
+  images:
+    - /assets/img/cats/6/u2667282477_httpss.mj.runjZKsExTVhZU_A_wild_black_striped_Eur_00daae3c-9f2e-4153-b803-66a680a026b5_1.png
+    - /assets/img/cats/6/u2667282477_httpss.mj.runjZKsExTVhZU_A_wild_black_striped_Eur_461249dc-355f-4fa4-8cb5-ff7d7c1f1a9a_1.png
+    - /assets/img/cats/6/u2667282477_httpss.mj.runjZKsExTVhZU_A_wild_black_striped_Eur_461249dc-355f-4fa4-8cb5-ff7d7c1f1a9a_2.png
+    - /assets/img/cats/6/u2667282477_httpss.mj.runjZKsExTVhZU_A_wild_black_striped_Eur_4eb39d9e-306c-41af-85fb-4b4e0bdf10f9_3.png
+    - /assets/img/cats/6/u2667282477_httpss.mj.runjZKsExTVhZU_A_wild_black_striped_Eur_cce5a2f2-c5c9-4058-ab2c-64324710fabb_3.png
+
+- id: traditional-ukiyo-e
+  card_title: Neo-Ukiyo-e
+  card_subtitle: Dunhuang Fresco
+  cover_alt: A cat inspired by traditional ukiyo-e and Dunhuang frescoes
+  title: 风沙漫卷, 孤影乘云
+  description: 炽眸若炬, 踏影随风
+  images:
+    - /assets/img/cats/7/1.png
+    - /assets/img/cats/7/u2667282477_httpss.mj.runjZKsExTVhZU_No_text_no_seal_no_chara_b33925fb-5dd8-4e05-a718-ef1cbcbc90d8_0.png
+    - /assets/img/cats/7/u2667282477_httpss.mj.runqhfRr-DsgaA_A_traditional_ukiyo-e_st_fa0f5079-05fe-46df-994c-2ed445970458_3.png
+    - /assets/img/cats/7/u2667282477_httpss.mj.runWpI773UvTNw_A_traditional_ukiyo-e_st_955a1739-c71c-4472-9004-5a51e7602834_0.png
+
+- id: wild-forest-cats
+  card_title: Neo-Ukiyo-e
+  card_subtitle: Mystic Splash
+  cover_alt: A wild forest cat surrounded by vivid mystical splashes
+  title: 流光溢彩, 虚实相生
+  description: 赤瞳如焰, 裂爪生风
+  images:
+    - /assets/img/cats/8/1.png
+    - /assets/img/cats/8/u2667282477_httpss.mj.runOjGTff5Crno_A_wild_black_striped_Eur_bf25943c-0c7d-4356-a563-bb9784167b10_0.png
+    - /assets/img/cats/8/u2667282477_httpss.mj.runOjGTff5Crno_A_wild_black_striped_Eur_bf25943c-0c7d-4356-a563-bb9784167b10_1.png
+    - /assets/img/cats/8/u2667282477_httpss.mj.runTqmAQV7TWeQ_httpss.mj.runWpI773UvTNw_bd2cb93e-db08-4600-a328-5932daea564b_3.png
+
+- id: dynamic-movement
+  card_title: Neo-Ukiyo-e
+  card_subtitle: Katsushika Hokusai
+  cover_alt: A tabby cat in a sweeping Hokusai-inspired action scene
+  title: 狸花映月, 荒风骤起
+  description: 凌霄炽目, 破影成锋
+  images:
+    - /assets/img/cats/9/1.png
+    - /assets/img/cats/9/u2667282477_httpss.mj.runTqmAQV7TWeQ_httpss.mj.runWpI773UvTNw_7deb607f-2cbf-4090-a8f7-ec0d2f2a3139_1.png
+    - /assets/img/cats/9/u2667282477_httpss.mj.runTqmAQV7TWeQ_httpss.mj.runWpI773UvTNw_90888ac0-0ded-4aa6-97dc-5f84d25f02a4_0.png
+    - /assets/img/cats/9/u2667282477_httpss.mj.runTqmAQV7TWeQ_httpss.mj.runWpI773UvTNw_cf101f33-f271-45e7-b9ee-b8cfa56c4855_0.png
+    - /assets/img/cats/9/u2667282477_httpss.mj.runTqmAQV7TWeQ_httpss.mj.runWpI773UvTNw_d52f3ee6-38ea-43c0-8b65-e01e905749be_0.png

@@ -26,7 +26,7 @@ Information on this site is compiled into my [cv](/assets/cv/resume.pdf).
     </div>
     <div class="education-details">
       <ul>
-        <li>Thesis title: "Learning to Guide Automated Reasoning: A GNN-Based Framework"</li>
+        <li>Thesis title: "<a href="https://www.diva-portal.org/smash/record.jsf?pid=diva2%3A1944055&amp;dswid=2271" target="_blank">Learning to Guide Automated Reasoning: A GNN-Based Framework</a>"</li>
         <li>Advisors: <a href="https://www.philipp.ruemmer.org/" target="_blank">Philipp Rümmer</a>, <a href="https://user.it.uu.se/~wangyi/" target="_blank">Yi Wang</a>, <a href="https://www.linkedin.com/in/marc-brockschmidt-995866b0/?originalSubdomain=uk" target="_blank">Marc Brockschmidt</a></li>
         <li>Opponent: <a href="https://www.dhbw-stuttgart.de/studium/bachelor-studienangebot/technik/informatik/ansprechpersonen/prof-dr-rer-nat-stephan-schulz/" target="_blank">Stephan Schulz</a></li>
         <li>Committee: <a href="https://www.irif.fr/~sighirea/" target="_blank">Mihaela Sighireanu</a>, <a href="https://korovin.gitlab.io/" target="_blank">Konstantin Korovin</a>, <a href="https://www.uu.se/en/contact-and-organisation/staff?query=N3-454" target="_blank">Christian Rohner</a>, <a href="https://wrigstad.com/" target="_blank">Tobias Wrigstad</a></li>
@@ -43,7 +43,8 @@ Information on this site is compiled into my [cv](/assets/cv/resume.pdf).
     </div>
     <div class="education-details">
       <ul>
-        <li>Thesis title: "Topology Control Using Fuzzy Game Theory in Mobile Underwater Sensor Networks"</li>
+        <li>Thesis title: "<a href="/assets/paper-pdf/Goettingen-master-thesis.pdf" target="_blank">Topology Control Using Fuzzy Game Theory in Mobile Underwater Sensor Networks</a>"</li>
+        <li>Supervisors: <a href="https://dblp.org/pid/188/9655.html" target="_blank">Yali Yuan</a>, <a href="https://www.uni-goettingen.de/de/133497.html" target="_blank">Dieter Hogrefe</a>, <a href="https://www.uni-goettingen.de/en/133504.html" target="_blank">Parisa Memarmoshref</a></li>
         <li>Grade: 1.0 (Sehr gut, highest distinction)</li>
       </ul>
     </div>
@@ -56,7 +57,6 @@ Information on this site is compiled into my [cv](/assets/cv/resume.pdf).
     </div>
     <div class="education-details">
       <ul>
-        <li>Having a wide range of computer science courses, including programming, computer networks, algorithms and architectures</li>
         <li>Graduated 1st in class</li>
       </ul>
     </div>

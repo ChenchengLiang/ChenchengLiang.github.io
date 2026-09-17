@@ -21,6 +21,13 @@ order: 1
   In: _25th International Conference on Verification, Model Checking, and Abstract Interpretation ([VMCAI](https://popl24.sigplan.org/home/VMCAI-2024)) 2024_.  
   [BibTex](/assets/bib/VMCAI-2024.txt) | [DOI](https://doi.org/10.1007/978-3-031-50524-9_13) | [PDF](/assets/paper-pdf/VMCAI-2024.pdf)
 
+## Conference Abstracts
+
+- **Exploring Representation of Horn Clauses using GNNs**\
+  Chencheng Liang, Philipp Rümmer, Marc Brockschmidt\
+  In: _Informal Book of Abstracts, 7th Conference on Artificial Intelligence and Theorem Proving ([AITP](https://aitp-conference.org/2022/)) 2022_ (non-archival extended abstract).\
+  [PDF](/assets/paper-pdf/AITP-2022.pdf) | [Official Version](https://aitp-conference.org/2022/abstract/AITP_2022_paper_4.pdf)
+
 ## Journal Articles
 
 - **Adaptive Fuzzy Game-Based Energy-Efficient Localization in 3D Underwater Sensor Networks**  
@@ -50,11 +57,19 @@ order: 1
   In: _8th Workshop on Practical Aspects of Automated Reasoning ([PAAR](https://paar2022.github.io/)) 2022_.  
   [BibTex](/assets/bib/PAAR-2022.txt) | [DOI](https://doi.org/10.48550/arXiv.2206.06986) | [PDF](/assets/paper-pdf/PAAR-2022.pdf)
 
-## Talks
+## Talks and Presentations
+
+- **Guiding Word Equation Solving Using Graph Neural Networks**\
+  At: _22nd International Symposium on Automated Technology for Verification and Analysis ([ATVA](https://atva-conference.org/2024/))_, Kyoto, Japan, 2024.\
+  [Slides](/assets/slides/ATVA-2024.pdf)
 
 - **Guiding Constraint Horn Clauses Solving using Graph Neural Networks**  
   At: _[Henzinger Thomas Group](https://ista.ac.at/en/research/henzinger_thomas-group/) in Institute of Science and Technology Austria ([ISTA](https://ista.ac.at/en/home))_, Austria, 2024.  
   [Slides](/assets/slides/ISTA-2024.pdf)
+
+- **Boosting Constrained Horn Solving by Unsat Core Learning**\
+  At: _25th International Conference on Verification, Model Checking, and Abstract Interpretation ([VMCAI](https://popl24.sigplan.org/home/VMCAI-2024))_, London, UK, 2024.\
+  [Slides](/assets/slides/VMCAI-2025.pdf)
 
 - **Boosting Constrained Horn Solving by Unsat Core Learning**  
   At: _11th Workshop on Horn Clauses for Verification and Synthesis ([HCVS](https://www.sci.unich.it/hcvs24/))_, Luxembourg, 2024.  
@@ -63,6 +78,10 @@ order: 1
 - **Exploring Representation of Horn Clauses using GNNs**  
   At: _7th Conference on Artificial Intelligence and Theorem Proving ([AITP](https://aitp-conference.org/2022/))_, France, 2022.  
   [Slides](/assets/slides/AITP-2022.pdf)
+
+- **Exploring Representation of Horn Clauses using GNNs**\
+  At: _8th Workshop on Practical Aspects of Automated Reasoning ([PAAR](https://paar2022.github.io/)) at FLoC/IJCAR 2022_, Haifa, Israel, 2022.\
+  [Slides](/assets/slides/PAAR-2022.pdf)
 
 - **Guiding Interpolation for Model Checking by Deep Learning Techniques**  
   At: _13th Alpine Verification Meeting ([AVM](https://www.fit.vut.cz/fit/news/2468/.en))_, Czech Republic, 2019.  

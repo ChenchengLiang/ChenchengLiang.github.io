@@ -19,16 +19,7 @@ I also presented my early PhD work, **“Guiding Interpolation for Model Checkin
 
 The [Alpine Verification Meeting](https://avm.sosy-lab.org/index.php) is an informal research meeting focused on current problems in **formal verification**. Rather than following the conventional paper-submission and proceedings format, AVM brings researchers together to share recent, ongoing, or submitted work, discuss open problems, and explore possible collaborations.
 
-The talks reflected the breadth of the verification community, including topics such as:
-
-- automated and software verification  
-- symbolic execution and test generation  
-- model checking and interpolation  
-- program analysis and control-flow reconstruction  
-- separation logic, SAT-based synthesis, and probabilistic programs  
-- industrial applications of static analysis  
-
-This combination of foundational methods, emerging ideas, and practical verification work made AVM a valuable place to understand how different parts of the field connect.
+The programme covered a broad range of topics, from automated verification, symbolic execution, model checking, and program analysis to separation logic, SAT-based synthesis, probabilistic programs, and industrial static analysis. Bringing these foundational methods and practical applications together made AVM a valuable place to see how different parts of the verification field connect.
 
 ---
 

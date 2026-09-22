@@ -19,3 +19,9 @@ main.col-xl-9,
   flex: 0 0 100%;
   max-width: 100%;
 }
+
+/* This wide cover must remain fully visible in Chirpy's fixed 40:21 previews. */
+.preview-img > img[src$='/assets/img/posts/2026-09-19-unpack-salary/cover.png'] {
+  object-fit: contain;
+  background-color: #0d2a4c;
+}
